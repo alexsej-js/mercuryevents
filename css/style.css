@@ -54,11 +54,11 @@ p {
 .moon-wrapper {
     border-radius: 100%;
     border: 2px solid #615656;
-    width: 631px;
-    height: 631px;
+    width: 630px;
+    height: 630px;
     display: flex;
     position: fixed;
-    right: -15%;
+    right: -10%;
     top: 20%;
     z-index: 0;
 }
@@ -328,15 +328,16 @@ ul li {
         width: 45px;
         height: 45px;
      }  
+     ul li {
+        background-size: 1rem ;
+      }
+      .moon-wrapper {
+        width: 420px;
+        height: 420px;
+        top: 30%;
+    }
   }
-  ul li {
-    background-size: 1rem ;
-  }
-  .moon-wrapper {
-    width: 420px;
-    height: 420px;
-    top: 30%;
-}
+
 @media (max-width: 600px) {
     .logo {
         width: 51px;
