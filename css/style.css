@@ -43,7 +43,7 @@ p {
 .main {
     width: 100%;
     height: 100vh;
-    background-image: url(/img/sky-night-with-stars-planets-comets\ 1.png);
+    background-image: url(/img/sky.png);
 }
 .main-content {
     align-items: flex-start;
