@@ -1,0 +1,359 @@
+html {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+    overflow: hidden;
+}
+*
+* ::before,
+* ::after {
+    box-sizing: inherit;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+.flex {
+    display: flex;
+}
+.site-container {
+   width: 100%;
+   overflow: hidden;
+   padding-top: 115px;
+   padding-left: 195px;
+   padding-bottom: 110px;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/sky-night-with-stars-planets-comets\ 1.png);
+}
+.main-content {
+    align-items: flex-start;
+}
+.main-titel {
+    margin-top: -15px;
+}
+.moon-wrapper {
+    border-radius: 100%;
+    border: 2px solid #615656;
+    width: 631px;
+    height: 631px;
+    display: flex;
+    position: fixed;
+    right: -15%;
+    top: 20%;
+    z-index: 0;
+}
+.logo {
+    margin-right: 112px;
+}
+h1 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 102.2%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    z-index: 5;
+}
+.main-p {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 102.2%;
+    color: #E0CA2E;
+    text-align: end;
+    z-index: 55;
+}
+.list-wrapper {
+    padding-top: 130px;
+    padding-left: 210px;
+    flex-direction: column;
+    margin-bottom: 50px;
+    z-index: 5;
+}
+.list-titel {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 161.7%;
+    color: #FFFFFF;
+    z-index: 5;
+}
+ul li {
+    display: flex;
+    padding-left: 2rem;
+    background-image: url(../img/v793-ning-37-ai-3\ 5.png);
+    background-position: 0;
+    background-repeat: no-repeat;
+    z-index: 5;
+  }
+  .button {
+    width: 270px;
+    height: 60px;
+    background: linear-gradient(92.44deg, #D2E8C9 2.81%, #70B4F9 62.56%, #E7AFCD 97.15%);
+    border-radius: 9px;
+    align-items: center;
+    justify-content: center;
+  }
+  .link-btn {
+    display: flex;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 161.7%;
+    color: #000000;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn-container {
+    width: 15%;
+    margin: 0 auto;
+   justify-content: end;
+   margin-bottom: 110px;
+   z-index: 5;
+  }
+  .footer {
+    width: 70%;
+    justify-content: space-between;
+  }
+  .face {
+    margin-right: 110px;
+  }
+ 
+  .contact-tel {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 161.7%;
+    color: #FFFFFF;
+  }
+  @media (max-width: 1470px) {
+    .site-container {
+        padding-top: 95px;
+        padding-left: 125px;
+        padding-bottom: 0px;
+        padding-right: 25px;
+     }
+  }
+  @media (max-width: 1024px) {
+    .site-container {
+        padding-top: 55px;
+        padding-left: 90px;
+        padding-bottom: 0px;
+     }
+     .list-wrapper {
+        padding-top: 60px;
+        padding-left: 110px;
+     }
+     h1 {
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 102.2%;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+    .main-p {
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 102.2%;
+        color: #E0CA2E;
+        text-align: end;
+    }
+    .logo {
+        margin-right: 60px;
+    }
+    .moon-wrapper {
+        border-radius: 100%;
+        border: 2px solid #615656;
+        width: 631px;
+        height: 631px;
+        display: flex;
+        position: fixed;
+        right: -25%;
+        top: 20%;
+    }
+    .list-titel {
+        font-size: 30px;
+    }
+    .contact-tel {
+        font-size: 36px;
+      }
+      .btn-container {
+        width: 55%;
+        margin: 0 auto;
+       justify-content: center;
+       margin: 0;
+       margin-bottom: 60px;
+      }
+      .footer {
+        flex-direction: column;
+        width: 55%;
+        justify-content: center;
+        margin: 0;
+        padding-left: 110px;
+      }
+      .network {
+        margin-bottom: 20px;
+      }
+  }
+  @media (max-width: 940px) {
+    .main-content {
+        flex-direction: column;
+    }
+    h1 {
+        width: 500px;
+    }
+    .logo {
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+    .moon-wrapper {
+        border-radius: 100%;
+        border: 2px solid #615656;
+        width: 520px;
+        height: 520px;
+        top: 30%;
+    }
+    .list-wrapper {
+        padding-left: 0;
+    }
+    .main-p {
+        font-size: 30px;
+        text-align: start;
+    }
+    .btn-container {
+        justify-content: flex-start;
+    }
+    .footer {
+        padding: 0;
+    }
+    .site-container {
+        padding-top: 45px;
+     }
+
+  }
+  @media (max-width: 768px) {
+    ul li {
+        width: 400px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    .main-p {
+        font-size: 24px;
+        text-align: start;
+    }
+    .site-container {
+        padding-left: 55px;
+     }
+     .img-footer {
+        width: 40px;
+        height: 40px;
+     }
+     .contact-tel {
+        align-items: center;
+        font-size: 16px;
+     }
+     .face {
+        margin-right: 20px;
+     }
+     .wa {
+        margin-right: 20px;
+     }
+  }
+  @media (max-width: 700px) {
+    li {
+        width: 400px;
+        font-size: 20px;
+    }
+    .list-titel {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    .main-p {
+        font-size: 20px;
+        text-align: start;
+    }
+    .site-container {
+        padding-left: 45px;
+     }
+     .img-footer {
+        width: 40px;
+        height: 40px;
+     }
+     .contact-tel {
+        font-size: 16px;
+     }
+     .face {
+        margin-right: 20px;
+     }
+     .contact {
+        align-items: center;
+     }
+     .wa {
+        margin-right: 20px;
+        width: 45px;
+        height: 45px;
+     }  
+  }
+  ul li {
+    background-size: 1rem ;
+  }
+  .moon-wrapper {
+    width: 420px;
+    height: 420px;
+    top: 30%;
+}
+@media (max-width: 600px) {
+    .logo {
+        width: 51px;
+        height: 51px;
+    }
+    .list-titel {
+        width: 200px;
+        line-height: 120%;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 425px) {
+    .moon-wrapper {
+        width: 350px;
+        height: 350px;
+        top: 30%;
+        right: -45%;
+    }
+}
+ 
