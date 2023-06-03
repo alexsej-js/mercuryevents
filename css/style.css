@@ -358,4 +358,15 @@ ul li {
         right: -45%;
     }
 }
+@media (max-width: 425px) {
+    .moon-wrapper {
+        width: 300px;
+        height: 300px;
+        top: 30%;
+        right: -55%;
+    }
+    .btn-container {
+        margin-bottom: 20px;
+    }
+}
  
