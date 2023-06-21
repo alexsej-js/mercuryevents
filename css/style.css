@@ -594,6 +594,7 @@ body.touch .menu-list>li.active-arrow .menu-arrow {
     justify-content: space-between;
 }
 
+
 .moon-btn {
     width: 325px;
     height: 60px;
@@ -2005,6 +2006,9 @@ h1 {
     .moon-h1 {
         width: 400px;
     }
+    .card-link__call-2 {
+        transform: translate(50%, 100%);
+    }
 }
 
 @media (max-width: 555px) {
@@ -2014,6 +2018,10 @@ h1 {
         top: 30%;
         right: -35%;
     }
+    .card-link__call-2 {
+        transform: translate(50%, 50%);
+    }
+
 }
 @media (max-width: 545px) {
     .card-conteiner__img {
@@ -2042,8 +2050,25 @@ h1 {
         margin: 0;
         justify-content: space-between;
      }
+     .card-link__call-2 {
+        transform: translate(50%, 80%);
+    }
 }
-
+@media (max-width: 492px) {
+    .card-link__call-2 {
+        transform: translate(50%, 50%);
+    }
+}
+@media (max-width: 470px) {
+    .card-link__call-2 {
+        transform: translate(50%, 20%);
+    }
+}
+@media (max-width: 445px) {
+    .card-link__call-2 {
+        transform: translate(50%, 10%);
+    }
+}
 @media (max-width: 425px) {
     .site-container__main {
         padding-left: 15px;
@@ -2191,7 +2216,11 @@ h1 {
         font-size: 12px;
     }
 }
-
+@media (max-width: 355px) {
+    .card-link__call-2 {
+        transform: translate(50%, -50%);
+    }
+}
 @media (max-width: 320px) {
     .site-container {
         padding-left: 10px;
