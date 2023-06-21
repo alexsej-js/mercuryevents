@@ -1424,6 +1424,12 @@ h1 {
     .card-conteiner-4__img {
         width: 70%;
     }
+    .list {
+        margin-bottom: 50px;
+    }
+    .card-conteiner {
+        background-size: 80%;
+    }
 
 }
 
@@ -2200,7 +2206,7 @@ h1 {
         width: 60%;
     }
     .card-link__call-2 {
-        transform: translate(50%, -20%);
+        transform: translate(50%, 50%);
     }
 }
 
