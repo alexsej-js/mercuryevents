@@ -541,7 +541,7 @@ body.touch .menu-list>li.active-arrow .menu-arrow {
     width: 90%;
     max-height: 100%;
     margin: 0 auto;
-    padding-top: 120px;
+    padding-top: 60px;
 }
 
 .card-conteiner__img {
@@ -2184,6 +2184,9 @@ h1 {
         background-color: #222121d5;
         
     }
+    .card-conteiner__img {
+        margin-top: 19px;
+    }
 
 }
 
@@ -2206,7 +2209,7 @@ h1 {
         width: 60%;
     }
     .card-link__call-2 {
-        transform: translate(50%, 50%);
+        transform: translate(50%, -50%);
     }
 }
 
